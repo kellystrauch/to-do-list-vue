@@ -1,0 +1,65 @@
+h1 {
+	font-family: 'Lobster', serif;
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+body{
+	background-color: #ab4800;
+}
+#app{
+	background-color: #eeebe4;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 25px;
+	border: 1px solid #343a40;
+	border-radius: 5px;
+	width: 700px;
+}
+.centered-row{
+	text-align: center;
+}
+.fa{
+	font-size: 28px;
+	color: #343a40;
+}
+.fa-plus-circle{
+	position: relative;
+	top: 3px;
+	margin-left: 10px;
+}
+.fa-trash{
+	margin-left: 4px;
+}
+.col-sm-2{
+	text-align: right;
+	padding-left: 0px;
+}
+.col-sm-10{
+	padding-right: 0px;
+}
+hr{
+	border-top: 1px solid #343a40;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+input{
+	width: 579px;
+}
+#unfinished-task-container{
+	margin-top: 20px;
+}
+button{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.finished-task{
+	text-decoration: line-through;
+}
+.btn-dark:not(:disabled):not(.disabled).active:focus,
+.btn-dark:not(:disabled):not(.disabled):active:focus,
+.show>.btn-dark.dropdown-toggle:focus,
+.btn-dark.focus,
+.btn-dark:focus {
+	box-shadow: 0 0 0 0.2rem rgba(171, 72, 0, 0.5);
+}
